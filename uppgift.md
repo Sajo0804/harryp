@@ -2,12 +2,12 @@ För G
 
 Skapa ett projekt i GitHub och länka till projektet när du lämnar in
 
-Sätt upp ett Next.js projekt
+Sätt upp ett Next.js projekt // kör react med vite istället. OK av Rickard
 
 Minst 8 funktionskomponenter
 
 Hämta data från extern sida
-Valfritt att använda REST API eller GraphQL
+Valfritt att använda REST API eller GraphQL // använder restAPI, Harry Pooter
 
 Skriv minst 3 test som passerar om man skriver "yarn test" / "npm test"
 

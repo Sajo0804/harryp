@@ -2,15 +2,25 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import ApiCall from '../component/ApiCall'
+import SpellList from '../component/SpellList'
 import CharacterList from '../component/CharacterList'
+import ContactForm from '../component/ContactForm'
+import CharacterGreeting from '../component/CharacterGreeting'
+import SpellGreeting from '../component/SpellGreeting'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from '../component/Navbar';
+
 
 function App() {
 
   return (
     <>
-    <ApiCall/>
+    <Navbar/>
+    <CharacterGreeting/>
     <CharacterList/>
+    <SpellGreeting/>
+    <SpellList/>
+    <ContactForm/>
 
     </>
   )
