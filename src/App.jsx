@@ -20,7 +20,6 @@ function App() {
     <SpellGreeting/>
     <SpellList/>
     <ContactForm/>
-
     </>
   )
 }
