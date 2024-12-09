@@ -7,7 +7,6 @@ import CharacterList from '../component/CharacterList'
 import ContactForm from '../component/ContactForm'
 import CharacterGreeting from '../component/CharacterGreeting'
 import SpellGreeting from '../component/SpellGreeting'
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from '../component/Navbar';
 
 
