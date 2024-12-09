@@ -58,7 +58,7 @@ const CharacterList = () => {
           </ul>
         </div>
         <div>
-          <button onClick={handlePrevPage} disabled={currentPage === 1}>Föregående</button>
+          <button  onClick={handlePrevPage} disabled={currentPage === 1}>Föregående</button>
           <span>Sida {currentPage} av {totalPages}</span>
           <button onClick={handleNextPage} disabled={currentPage === totalPages}>Nästa</button>
         </div>
