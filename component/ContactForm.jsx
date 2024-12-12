@@ -9,10 +9,10 @@ const ContactForm = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Normalt skulle jag skicka data till en server här
+        // skicka data till en server 
         console.log('Form submitted:', { name, phone, message });
 
-        // Detta gör en reset efter submit
+        // deta gör en reset efter submit
         setName('');
         setPhone('');
         setMessage('');

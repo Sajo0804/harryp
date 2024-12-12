@@ -8,18 +8,23 @@ import ContactForm from '../component/ContactForm'
 import CharacterGreeting from '../component/CharacterGreeting'
 import SpellGreeting from '../component/SpellGreeting'
 import Navbar from '../component/Navbar';
+import HarryPotterQuote from '../component/Quotes'
+
 
 
 function App() {
 
   return (
     <>
+
     <Navbar/>
     <CharacterGreeting/>
     <CharacterList/>
     <SpellGreeting/>
     <SpellList/>
     <ContactForm/>
+    <HarryPotterQuote/>
+    
     </>
   )
 }

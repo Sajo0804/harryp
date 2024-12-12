@@ -1,6 +1,7 @@
 import React from 'react';
 import { css } from '@emotion/css'
 
+//rubrik
 const SpellGreeting = () => {
     return (
         <div>

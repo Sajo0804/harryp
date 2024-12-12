@@ -2,7 +2,6 @@ import { Button } from 'react-bootstrap';
 import React from 'react';
 import { Navbar, Container, Nav } from 'react-bootstrap';
 import { css } from '@emotion/css'
-// import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 

@@ -23,7 +23,7 @@ const SpellList = () => {
       setCurrentPage(1);
       setLoading(false);
     } catch (error) {
-      console.error('Error fetching spells:', error);
+      console.error('Error, kunde inte hämta:', error);
       setError('Kunde inte hämta magiska svårigheter.');
       setLoading(false);
     }
@@ -50,6 +50,7 @@ const SpellList = () => {
       setLoading(false);
     }
   };
+//funktion finns men inte används. Krånglar med POST
 
   const updateSpell = async (updatedSpell) => {
     try {
@@ -63,12 +64,13 @@ const SpellList = () => {
         setTimeout(fetchSpells, 100); // Uppdatera spell-listan efter några sekunders tid
       }
     } catch (error) {
-      console.error('Error updating spell:', error);
+      console.error('Error, kunde inte ta bort:', error);
       setError('Kunde inte uppdatera magisk svårighet.');
       setLoading(false);
     }
   };
 
+//funktion finns men inte används. Krånglar med CORS och fetch
   const deleteSpell = async (spellId) => {
     try {
       await fetch(`https://hp-api.onrender.com/api/spells/${spellId}`, {
@@ -80,7 +82,7 @@ const SpellList = () => {
       setLoading(true);
       setTimeout(fetchSpells, 100); // Uppdatera spell-listan efter några sekunders tid
     } catch (error) {
-      console.error('Error deleting spell:', error);
+      console.error('Error, kunde inte ta bort:', error);
       setError('Kunde inte ta bort magisk svårighet.');
       setLoading(false);
     }
